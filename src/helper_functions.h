@@ -81,7 +81,11 @@ inline double * getError(double gt_x, double gt_y, double gt_theta, double pf_x,
 
 /**
  * Computes the weights of each particle using a mult-variate Gaussian distribution
- * @param (sig_x,sig_y) x and y variances in measurement
+ * The Multivariate-Gaussian probability density has two dimensions, x and y. 
+ * The mean of the Multivariate-Gaussian is the measurement's associated landmark position 
+ * The Multivariate-Gaussian's standard deviation is described by our initial uncertainty in the x and y ranges
+ * The Multivariate-Gaussian is evaluated at the 
+ * @param (sig_x,sig_y) x and y uncertainties in measurement
  * @param (x_obs,y_obs) x and y observation measurements in map coordinates
  * @param (mu_x,mu_y) x and y coordinates of the nearest landmarks 
  * @output mult-variate probability for that pair of (landmark, observation)
