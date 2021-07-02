@@ -11,8 +11,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: /writeup_images/success.png 
-[image2]: /writeup_images/pf.png 
+[image1]: /success.png 
+[image2]: /pf.png 
 
 ## Rubric Points
 ### The [rubric points](https://review.udacity.com/#!/rubrics/747/view) for this project are: 
